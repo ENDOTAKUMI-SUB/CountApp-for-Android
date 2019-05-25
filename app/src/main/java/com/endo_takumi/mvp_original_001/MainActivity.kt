@@ -28,6 +28,6 @@ class MainActivity : AppCompatActivity(), MainContract.View {
 
     // Update the screen
     override fun redraw(count: Int) {
-        countTextView.setText(count.toString())
+        countTextView.text = count.toString()
     }
 }
